@@ -1,3 +1,4 @@
+
 """
 Run once to calibrate. Saves calibration.txt with zero offset and factor.
 Commands: C=calibrate  S=save  Q=quit
@@ -43,7 +44,8 @@ print("Type C to calibrate, S to save, Q to quit\n")
 
 while True:
     cmd = input().strip().upper()
-    if cmd == "Q": break
+    if cmd == "Q":
+        break
     elif cmd == "S":
         if saved_zero is None or saved_factor is None:
             print("Calibrate first (send C).")
@@ -53,6 +55,8 @@ while True:
                 f.write(f"{saved_zero}\n{saved_factor}\n")
             print(f"Saved → calibration.txt  (zero={saved_zero}, factor={saved_factor:.6f})")
     elif cmd:
-        ser.write((cmd + "\n").encode())
+        ser.write((cmd + "\n").encode())  # send command to firmware
+    else:
+        ser.write(b"\n")                  # forward bare Enter (for firmware step prompts)
 
 ser.close()

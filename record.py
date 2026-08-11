@@ -64,8 +64,10 @@ def wait_stop():
 
 threading.Thread(target=wait_stop, daemon=True).start()
 
-t_start      = None
+t_start        = None
 force_baseline = None
+warmup_samples = []          # collect first 10 readings to compute stable baseline
+WARMUP_N       = 10
 
 while not stop.is_set():
     line = ser.readline().decode("utf-8", errors="ignore").strip()
@@ -73,18 +75,23 @@ while not stop.is_set():
     parts = line.split(",")
     if len(parts) != 2: continue
     try:
-        force_kg = float(parts[1])
+        raw_adc = int(parts[1])
     except ValueError:
         continue
 
-    now = time.time()
-    if t_start is None:
-        t_start = now
-        force_baseline = force_kg   # tare: first reading = zero
+    force_kg = (raw_adc - ZERO_OFFSET) * CAL_FACTOR
 
+    # Build stable baseline from first WARMUP_N readings (not recorded)
+    if force_baseline is None:
+        warmup_samples.append(force_kg)
+        if len(warmup_samples) >= WARMUP_N:
+            force_baseline = sum(warmup_samples) / len(warmup_samples)
+            t_start = time.time()
+        continue
+
+    now = time.time()
     t = now - t_start
-    force_zeroed = -(force_kg - force_baseline)   # negate for correct direction
-    if force_zeroed < 0: force_zeroed = 0
+    force_zeroed = abs(force_kg - force_baseline)  # abs handles either load cell direction
 
     times.append(t)
     forces.append(force_zeroed)
