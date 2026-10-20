@@ -1,0 +1,6 @@
+2026-10-14T18:42:48  zero=2200831  factor=-2.82184594e-05  source=characterize.py (char_20261014_182632)
+2026-10-14T19:31:10  zero=2179621  factor=-4.202277e-05  source=bracketed single-weight calibration (characterization/char_20261014_192531_glued_1wt)
+2026-10-14T19:52:20  zero=2181815  factor=-3.97627015e-05  source=3-weight bracketed calibration after hardware fix (characterization/char_20261014_194531_fixed)
+2026-10-16T11:17:37  zero=2212616  factor=-3.43701667e-05  source=2026-10-16 check: bracketed zeros, 0.296 kg (-28912 c/kg) + 1.7 kg (-29278 c/kg); sensitivity +16% vs 10-14 cal
+2026-10-20T11:17:12  zero=2191673  factor=-3.31123982e-05  source=2026-10-20 heavy check: bracketed zeros, 16.9 kg x2 (cycle 1 = seating, discarded), mean -30200 c/kg; characterization/char_20261020_heavy
+2026-10-20T11:23:58  zero=2191673  factor=-3.31412369e-05  source=combined 2026-10-16 + 2026-10-20 (0.296, 1.7, 16.9 x2 kg; bracketed zeros; minimax relative error, through origin) - applies to all tests from 2026-10-16 on

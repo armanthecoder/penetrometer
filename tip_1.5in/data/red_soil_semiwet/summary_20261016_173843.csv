@@ -1,0 +1,2 @@
+file,samples,duration_s,rate_hz,peak_force_N,peak_force_kg,UCS_estimate_kPa,uncertainty_kPa,peak_smoothed_kPa,time_of_peak_s,test_start_s,time_to_peak_s,mean_pressure_loaded_kPa,loading_rate_N_per_s,flags,processed_csv
+red_soil_semiwet_s2_20261016_173840,744,18.69,40.0,80.231,8.1785,70.373,7.637,69.736,10.136,0.126,10.01,36.327,7.504,baseline noisy (159.9 g vs 3.4 g normal) - probe touched while zeroing?,red_soil_semiwet_s2_20261016_173840_processed.csv

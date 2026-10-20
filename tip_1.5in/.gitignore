@@ -1,0 +1,11 @@
+# The repo root ignores data files; this folder keeps its results and calibration.
+!*.csv
+!*.png
+!calibration.txt
+
+# Build output and local state
+firmware/.pio/
+__pycache__/
+*.pyc
+.current_run
+*.xlsx

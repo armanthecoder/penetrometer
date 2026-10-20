@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-14 19:31:10",
+  "method": "single weight (0.279 kg) x3, bracketed zeros, glued tip",
+  "run": "characterization/char_20261014_192531_glued_1wt",
+  "tip_diameter_in": 1.5,
+  "tip_area_m2": 0.0011400918279693697,
+  "masses_kg": [
+    0.0,
+    0.279
+  ],
+  "fit_zero": 2179620.8,
+  "fit_factor": -4.202277e-05,
+  "counts_per_kg": -23796.62264053512,
+  "repeatability_pct": 7.0,
+  "max_abs_error_kg": 0.0198,
+  "max_rel_error_pct_above_10pct_fs": 7.1,
+  "noise_sigma_kg": 0.00348788991,
+  "noise_sigma_N": 0.034216200017100004,
+  "noise_sigma_kPa": 0.03001179306586458,
+  "detection_limit_kg": 0.01046366973,
+  "detection_limit_kPa": 0.09003537919759373,
+  "zero_return_kg": 0.00979130541,
+  "usable_max_kg": 437.0559972776928,
+  "usable_max_N": 4287.519333294167,
+  "usable_max_kPa": 3760.6789454238224,
+  "note": "Calibrated only at 0.279 kg; loads above ~0.34 kg are extrapolated. Load cell rated capacity unknown.",
+  "calibration_saved": true
+}

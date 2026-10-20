@@ -1,0 +1,5 @@
+{
+  "_note": "kg ADDED to the recorded force. The tip was loaded while record.py zeroed; offset = recorded baseline - clean rest reading taken just before the test (both vs calibration.txt).",
+  "red_soil_semiwet_s2_20261016_173840": {"offset_kg": 0.5767, "reference": "characterize.py --test rest reading -0.3335 kg just before s2; baseline +0.2432 kg"},
+  "red_soil_semiwet_s4_20261016_174142": {"offset_kg": 0.5335, "reference": "rest reading at end of s3 (-0.1689 kg); baseline +0.3646 kg"}
+}

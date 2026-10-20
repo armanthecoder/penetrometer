@@ -1,0 +1,2 @@
+file,samples,duration_s,rate_hz,peak_force_N,peak_force_kg,UCS_estimate_kPa,uncertainty_kPa,peak_smoothed_kPa,time_of_peak_s,test_start_s,time_to_peak_s,mean_pressure_loaded_kPa,loading_rate_N_per_s,flags,processed_csv
+yellow_soil_wet_s3_20261020_115012,999,25.1,40.0,102.757,10.4747,90.13,3.769,88.559,15.193,8.829,6.364,50.65,14.825,,yellow_soil_wet_s3_20261020_115012_processed.csv

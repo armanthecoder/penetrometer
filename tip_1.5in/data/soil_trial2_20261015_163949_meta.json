@@ -1,0 +1,24 @@
+{
+  "label": "soil_trial2",
+  "timestamp": "20261015_163949",
+  "samples": 670,
+  "duration_s": 16.827,
+  "sample_rate_hz": 39.75753253699411,
+  "tip_diameter_in": 1.5,
+  "tip_area_m2": 0.0011400918279693697,
+  "calibration_zero": 2181815,
+  "calibration_factor": -3.97627015e-05,
+  "baseline_kg": -0.36744712456149997,
+  "baseline_sd_kg": 0.10242184574712708,
+  "sign_flipped": false,
+  "peak_kg": 33.736027884451,
+  "peak_N": 330.9504335464643,
+  "peak_kPa": 290.2840152235139,
+  "peak_UCS_kPa": 290.2840152235139,
+  "peak_UCS_uncertainty_kPa": 31.50078357159156,
+  "measurable_max_kg": 414.00494728420574,
+  "warnings": [
+    "baseline noisy (102.4 g vs 3.4 g normal) - probe touched while zeroing?"
+  ],
+  "characterization_date": "2026-10-14 19:52:20"
+}

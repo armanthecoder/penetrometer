@@ -1,0 +1,17 @@
+group,sample,peak_force_kg,UCS_kPa,uncertainty_kPa,zero_correction_kg
+Yellow wet,yellow_soil_wet_s1_20261020_114512,9.6808,83.30,3.48,0.0000
+Yellow wet,yellow_soil_wet_s2_20261020_114904,9.0058,77.49,3.24,0.0000
+Yellow wet,yellow_soil_wet_s3_20261020_115012,10.4747,90.13,3.77,0.0000
+Yellow wet,yellow_soil_wet_s4_20261020_115111,9.3975,80.86,3.38,0.0000
+Red wet,red_soil_wet_s1_20261016_111902,3.7823,32.55,1.36,0.0000
+Red wet,red_soil_wet_s2_20261016_112129,5.5033,47.35,1.98,0.0000
+Red wet,red_soil_wet_s3_20261016_112609,4.1475,35.69,1.49,0.0000
+Red semi-wet (5 h drying),red_soil_semiwet_s1_20261016_173625,7.0502,60.66,2.54,0.0000
+Red semi-wet (5 h drying),red_soil_semiwet_s2_20261016_173840,8.4422,72.64,3.04,0.5767
+Red semi-wet (5 h drying),red_soil_semiwet_s3_20261016_174012,6.0050,51.67,2.16,0.0000
+Red semi-wet (5 h drying),red_soil_semiwet_s4_20261016_174142,7.7231,66.45,2.78,0.5335
+
+group,n,mean_UCS_kPa,SD_kPa,CV_pct
+Yellow wet,4,82.95,5.35,6.4
+Red wet,3,38.53,7.80,20.3
+Red semi-wet (5 h drying),4,62.86,8.92,14.2

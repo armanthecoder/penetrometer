@@ -1,0 +1,22 @@
+{
+  "label": "yellow_soil_wet_s4",
+  "timestamp": "20261020_115111",
+  "samples": 910,
+  "duration_s": 22.866,
+  "sample_rate_hz": 39.753345578588295,
+  "tip_diameter_in": 1.5,
+  "tip_area_m2": 0.0011400918279693697,
+  "calibration_zero": 2191673,
+  "calibration_factor": -3.31412369e-05,
+  "baseline_kg": 0.5741396165865225,
+  "baseline_sd_kg": 0.0032051661713116695,
+  "sign_flipped": false,
+  "peak_kg": 9.397528306833076,
+  "peak_N": 92.18975269003248,
+  "peak_kPa": 80.86169063612417,
+  "peak_UCS_kPa": 80.86169063612417,
+  "peak_UCS_uncertainty_kPa": 3.3816811150774204,
+  "measurable_max_kg": 344.5092825731976,
+  "warnings": [],
+  "characterization_date": "2026-10-20 (combined with 2026-10-16)"
+}

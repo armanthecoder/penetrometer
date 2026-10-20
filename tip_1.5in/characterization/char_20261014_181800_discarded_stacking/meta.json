@@ -1,0 +1,7 @@
+{
+  "capacity_kg": null,
+  "settle_s": 3.0,
+  "window_s": 5.0,
+  "calibration_before": null,
+  "creep_mass": null
+}

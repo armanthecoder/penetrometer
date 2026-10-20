@@ -1,0 +1,24 @@
+{
+  "label": "red_soil_wet_s1",
+  "timestamp": "20261016_111902",
+  "samples": 701,
+  "duration_s": 17.606,
+  "sample_rate_hz": 39.759173009201405,
+  "tip_diameter_in": 1.5,
+  "tip_area_m2": 0.0011400918279693697,
+  "calibration_zero": 2212616,
+  "calibration_factor": -3.43701667e-05,
+  "baseline_kg": 0.7070890565516122,
+  "baseline_sd_kg": 0.029964909768746686,
+  "sign_flipped": false,
+  "peak_kg": 3.9225723979383877,
+  "peak_N": 38.48043522377559,
+  "peak_kPa": 33.75204898390819,
+  "peak_UCS_kPa": 33.75204898390819,
+  "peak_UCS_uncertainty_kPa": 3.662674947227768,
+  "measurable_max_kg": 357.8923899406701,
+  "warnings": [
+    "baseline noisy (30.0 g vs 3.4 g normal) - probe touched while zeroing?"
+  ],
+  "characterization_date": "2026-10-14 19:52:20"
+}

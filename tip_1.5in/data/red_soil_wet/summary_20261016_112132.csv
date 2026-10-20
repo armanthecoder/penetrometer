@@ -1,0 +1,3 @@
+file,samples,duration_s,rate_hz,peak_force_N,peak_force_kg,UCS_estimate_kPa,uncertainty_kPa,peak_smoothed_kPa,time_of_peak_s,test_start_s,time_to_peak_s,mean_pressure_loaded_kPa,loading_rate_N_per_s,flags,processed_csv
+red_soil_wet_s1_20261016_111902,701,17.61,40.0,38.48,3.9226,33.752,3.663,33.658,9.508,2.213,7.295,16.072,4.98,baseline noisy (30.0 g vs 3.4 g normal) - probe touched while zeroing?,red_soil_wet_s1_20261016_111902_processed.csv
+red_soil_wet_s2_20261016_112129,622,15.62,40.0,55.989,5.7074,49.11,5.329,48.61,6.539,1.333,5.206,21.511,10.077,baseline noisy (20.0 g vs 3.4 g normal) - probe touched while zeroing?,red_soil_wet_s2_20261016_112129_processed.csv

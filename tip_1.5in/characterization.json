@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-20 (combined with 2026-10-16)",
+  "method": "bracketed zeros, single factor through origin minimizing the largest relative error; points 0.296 + 1.7 kg (2026-10-16) and 16.9 kg x2 (2026-10-20, after a seating preload cycle)",
+  "run": "characterization/char_20261020_heavy",
+  "tip_diameter_in": 1.5,
+  "tip_area_m2": 0.0011400918279693697,
+  "load_cell": "50 kg half-bridge (bathroom-scale type)",
+  "full_scale_kg": 50.0,
+  "masses_kg": [
+    0.0,
+    0.296,
+    1.7,
+    16.9
+  ],
+  "fit_zero": 2191672.73,
+  "fit_factor": -3.3141236886555524e-05,
+  "counts_per_kg": -30173.88890532544,
+  "errors_pct": {
+    "0.296 kg (2026-10-16)": -4.18,
+    "1.7 kg (2026-10-16)": -2.97,
+    "16.9 kg cycle 2 (2026-10-20)": -4.01,
+    "16.9 kg cycle 3 (2026-10-20)": 4.18
+  },
+  "max_abs_error_kg": 0.02,
+  "max_rel_error_pct_above_10pct_fs": 4.182055913590665,
+  "noise_sigma_kg": 0.0042656213538833235,
+  "noise_sigma_N": 0.041845745481595406,
+  "noise_sigma_kPa": 0.03670383775675976,
+  "detection_limit_kg": 0.012796864061649971,
+  "detection_limit_kPa": 0.11011151327027931,
+  "zero_shift_after_7.6kg_kg": 0.10191180406885217,
+  "usable_max_kg": 50.0,
+  "usable_max_N": 490.5,
+  "usable_max_kPa": 430.2285026230168,
+  "calibration_saved": true,
+  "uncertainty_note": "Use +/- max(0.02 kg, 4.2 % of reading), calibrated 0.3-16.9 kg; same calibration for all tests from 2026-10-16 on. Preload ~17 kg before testing.",
+  "previous_fit_factor_2026_10_14": -3.976270154851821e-05,
+  "recheck_2026_10_16": {
+    "masses_kg": [
+      0.296,
+      1.7
+    ],
+    "counts_per_kg": [
+      -28912,
+      -29278
+    ],
+    "errors_pct": [
+      -0.63,
+      0.63
+    ],
+    "zero_shift_after_kg": [
+      0.21,
+      0.3
+    ],
+    "note": "sensitivity rose ~16% overnight (zero moved ~1.8 kg); relative uncertainty kept at the 10-14 value"
+  },
+  "previous": {
+    "date": "2026-10-14 19:52:20",
+    "method": "bracketed zeros; 0.279, 1.148, 7.6 kg; factor fitted through origin minimizing relative error",
+    "run": "characterization/char_20261014_194531_fixed",
+    "fit_zero": 2212616,
+    "fit_factor": -3.4370166695308474e-05,
+    "counts_per_kg": -29095.0,
+    "masses_kg": [
+      0.0,
+      0.279,
+      1.148,
+      7.6
+    ],
+    "errors_pct": {
+      "1.148": -10.85,
+      "0.279": 1.26,
+      "7.6": 7.79
+    },
+    "max_rel_error_pct_above_10pct_fs": 10.851711399725705,
+    "uncertainty_note": "Use +/- max(0.02 kg, 10.9 % of reading). Largest relative error seen: -10.9 % at 1.148 kg."
+  },
+  "zero_shift_after_16.9kg_kg": {
+    "cycle1_seating": 1.053,
+    "cycle2": 0.012,
+    "cycle3": 0.218
+  },
+  "repeatability_16.9kg_pct": 4.09
+}

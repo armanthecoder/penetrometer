@@ -1,0 +1,12 @@
+group,sample,peak_force_kg,UCS_kPa,uncertainty_kPa,zero_correction_kg
+Wet,red_soil_wet_s1_20261016_111902,3.7823,32.55,1.36,0.0000
+Wet,red_soil_wet_s2_20261016_112129,5.5033,47.35,1.98,0.0000
+Wet,red_soil_wet_s3_20261016_112609,4.1475,35.69,1.49,0.0000
+Semi-wet (after 5 h drying),red_soil_semiwet_s1_20261016_173625,7.0502,60.66,2.54,0.0000
+Semi-wet (after 5 h drying),red_soil_semiwet_s2_20261016_173840,8.4422,72.64,3.04,0.5767
+Semi-wet (after 5 h drying),red_soil_semiwet_s3_20261016_174012,6.0050,51.67,2.16,0.0000
+Semi-wet (after 5 h drying),red_soil_semiwet_s4_20261016_174142,7.7231,66.45,2.78,0.5335
+
+group,n,mean_UCS_kPa,SD_kPa,CV_pct
+Wet,3,38.53,7.80,20.3
+Semi-wet (after 5 h drying),4,62.86,8.92,14.2

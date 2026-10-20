@@ -1,0 +1,44 @@
+====================================================================
+  LOAD CELL CHARACTERIZATION  -  1.5" tip penetrometer
+====================================================================
+Date               : 2026-10-14 18:42:47
+Steps              : 7   masses: 0, 0.279, 0.627, 7.6 kg
+Full scale (FS)    : 7.6 kg  (max applied mass)
+Tip                : 1.5" dia, area 1140.1 mm^2  ->  1 kg = 8.605 kPa
+
+Step table (error = measured - nominal, using the fitted calibration):
+    #   dir   mass kg     raw mean   raw sd   meas kg    err kg   err %
+    1  zero    0.0000    2192830.6     87.8   -0.0000   -0.0000       -
+    2    up    0.2790    2186710.6     93.0    0.1727   -0.1063  -38.10
+    3    up    0.6270    2180166.0    103.4    0.3574   -0.2696  -43.00
+    4    up    7.6000    1930704.0   1949.3    7.3968   -0.2032   -2.67
+    5  down    0.6270    2186778.5    225.9    0.1708   -0.4562  -72.76
+    6  down    0.2790    2195104.1    168.4   -0.0642   -0.3432 -122.99
+    7  zero    0.0000    2199980.3     83.6   -0.0000   -0.0000       -
+
+Fitted calibration (least squares):
+  zero offset      : 2200830.7 counts
+  cal factor       : -2.82184594e-05 kg/count   (-35437.80 counts/kg)
+  R^2              : 0.997074
+
+Accuracy:
+  max |error|      : 0.4562 kg = 4.476 N = 3.926 kPa
+  RMS error        : 0.2539 kg = 2.185 kPa
+  max rel. error   : 2.67 %  (steps >= 10% FS)
+  non-linearity    : 0.2305 kg  (3.032 % FS)
+  repeatability    : n/a  (worst std of repeated steps)
+  hysteresis       : 0.2368 kg  (3.116 % FS)
+  zero return      : 0.2018 kg  (spread of the zero readings)
+
+Noise / resolution (single streamed reading, ~40 Hz):
+  1 sigma          : 0.0024 kg = 0.0237 N = 0.021 kPa
+  detection limit  : 0.0073 kg = 0.062 kPa  (3 sigma)
+
+Range:
+  ADC saturates at : 294.1 kg  (in the loading direction)
+  usable max       : 294.1 kg = 2885 N = 2530 kPa on the 1.5" tip
+  NOTE: you only characterized up to 7.6 kg; accuracy above that is extrapolated.
+
+Interpretation guide: R^2 > 0.999, non-linearity and hysteresis < 0.5 % FS and
+max rel. error < 1-2 % are good for a low-cost load cell. Check that the masses you
+tested cover the forces you expect in the experiment.

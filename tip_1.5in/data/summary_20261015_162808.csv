@@ -1,0 +1,2 @@
+file,samples,duration_s,rate_hz,peak_force_N,peak_force_kg,UCS_estimate_kPa,uncertainty_kPa,peak_smoothed_kPa,time_of_peak_s,test_start_s,time_to_peak_s,mean_pressure_loaded_kPa,loading_rate_N_per_s,flags,processed_csv
+soil_trial1_20261015_162803,1260,31.67,40.0,266.232,27.1388,233.518,25.341,229.736,17.861,4.629,13.232,122.702,18.584,peak 27.14 kg is above the largest calibration mass (7.6 kg) - extrapolated,soil_trial1_20261015_162803_processed.csv
