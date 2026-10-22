@@ -92,12 +92,7 @@
   font-family: 'Courier New', Courier, monospace;
   flex-direction: column; /* Stacks items vertically */
 }
-<!-- .vertical-layout { -->
-  <!-- display: flex; -->
-  
-  <!-- gap: 10px;              /* Adds spacing between buttons */ -->
-  <!-- width: max-content;     /* Keeps the container tight around buttons */ -->
-<!-- } -->
+
 	#characteristic {
   background-color: #2ecc71;
   color: white;
@@ -129,7 +124,7 @@ button {
 
 
 <script>
-  var ChromeSamples = {
+  var ChromeSamples = { //Writes log onto screen so it can be seen when accessing the webapp from a cellphone
     log: function() {
       var line = Array.prototype.slice.call(arguments).map(function(argument) {
         return typeof argument === 'string' ? argument : JSON.stringify(argument);
