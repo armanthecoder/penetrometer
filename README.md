@@ -5,6 +5,8 @@ We used the Chrome BLE API for the webapp BLE communication: https://googlechrom
 - Open terminal inside folder
 - Follow the Python Flask documentation to install Flask: https://flask.palletsprojects.com/en/stable/installation/
 - Install dependencies: pip3 install -r requirements.txt
+- Follow PlatformIO documentation and ensure that the CLI tools are installed: https://docs.platformio.org/en/latest/core/installation/index.html
 
-
-To run: flask --app chrome run --host=0.0.0.0 --cert=adhoc
+**Running Application**
+- Upload code to the MCU by runnning: pio run --target upload
+- Initialize Flask server by running: flask --app chrome run --host=0.0.0.0 --cert=adhoc
