@@ -13,8 +13,6 @@ We used the Chrome BLE API for the webapp BLE communication: https://googlechrom
 - Navigate to the URL that the terminal returns
 <img width="196" height="270" alt="image" src="https://github.com/user-attachments/assets/73357fb2-1d30-487b-8d2e-6e2ab105e344" />
 
-
 - Click connect and select the desired device
 - Press start to begin reading data, and then stop to send it to the server. Each point is given its own folder in the directory.
-
 - 
