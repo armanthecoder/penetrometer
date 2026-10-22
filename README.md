@@ -15,4 +15,7 @@ We used the Chrome BLE API for the webapp BLE communication: https://googlechrom
 
 - Click connect and select the desired device
 - Press start to begin reading data, and then stop to send it to the server. Each point is given its own folder in the directory.
-- 
+
+**Note**
+- Server is designed to automatically enable hotspot upon running
+- If server fails to restart, exit process and restart hotspot
