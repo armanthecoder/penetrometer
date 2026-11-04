@@ -1,0 +1,4 @@
+sample,split,t_contact_s,F_tip_N,F_max_N,q_tip_kPa,q_avg_kPa,q_ring_kPa,ratio_avg,ratio_ring,rate_tip_N_s,rate_platen_N_s
+red_soil_semiwet_dual_s1_20261104_165232,manual,14.23,28.58,99.24,902.5,87.05,63.75,10.37,14.16,,
+red_soil_semiwet_dual_s2_20261104_165652,rate jump,10.84,23.56,101.47,743.9,89.0,70.29,8.36,10.58,4.77,14.22
+red_soil_semiwet_dual_s3_20261104_165958,rate jump,17.97,24.87,84.14,785.3,73.8,53.47,10.64,14.69,2.58,8.58

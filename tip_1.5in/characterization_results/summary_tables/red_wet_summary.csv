@@ -1,0 +1,5 @@
+sample,split,t_contact_s,F_tip_N,F_max_N,q_tip_kPa,q_avg_kPa,q_ring_kPa,ratio_avg,ratio_ring,rate_tip_N_s,rate_platen_N_s
+red_soil_wet_dual_s1_20261029_114516,rate jump,10.9,17.61,58.24,556.1,51.08,36.65,10.89,15.17,2.69,5.88
+red_soil_wet_dual_s2_20261029_114844,last ramp to peak,19.14,17.03,57.27,537.8,50.23,36.3,10.71,14.82,,
+red_soil_wet_dual_s3_20261029_115018,rate jump,11.31,9.12,51.11,287.8,44.83,37.89,6.42,7.6,3.6,8.91
+red_soil_wet_dual_s4_20261029_115247,manual,15.3,15.89,63.06,501.7,55.31,42.55,9.07,11.79,,

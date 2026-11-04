@@ -1,0 +1,24 @@
+{
+  "label": "red_soil_wet_dual_s1",
+  "timestamp": "20261029_114516",
+  "samples": 1067,
+  "duration_s": 26.813,
+  "sample_rate_hz": 39.756834371387015,
+  "tip_diameter_in": 1.5,
+  "tip_area_m2": 0.0011400918279693697,
+  "calibration_zero": 2191673,
+  "calibration_factor": -3.31412369e-05,
+  "baseline_kg": 21.925082389748496,
+  "baseline_sd_kg": 0.002196972736097634,
+  "sign_flipped": false,
+  "peak_kg": 6.036013476597002,
+  "peak_N": 59.21329220541659,
+  "peak_kPa": 51.93730079697356,
+  "peak_UCS_kPa": 51.93730079697356,
+  "peak_UCS_uncertainty_kPa": 2.172046959339205,
+  "measurable_max_kg": 323.1581862186939,
+  "warnings": [
+    "zero has shifted +21.93 kg since calibration (load on tip at start? temperature?)"
+  ],
+  "characterization_date": "2026-10-20 (combined with 2026-10-16)"
+}
